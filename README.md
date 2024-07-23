@@ -49,3 +49,21 @@ PersistentTransients\delete( $transient );
 ## Installation
 
 This is a Composer package, not a traditional WordPress plugin. Install [via Composer](https://packagist.org/packages/philipnewcomer/persistent-transients).
+
+Add these two blocks to your composer.json. Extend existing entries:
+
+```
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hive-IT-GmbH/persistent-transients"
+        }
+    ],
+```
+```
+    "require": {
+        ...
+        "hiveit/persistent-transients": "dev-master",
+        ...
+    }
+```
