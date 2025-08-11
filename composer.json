@@ -2,13 +2,13 @@
 	"name": "hiveit/persistent-transients",
 	"description": "Persistent transients for WordPress",
 	"type": "library",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Hive-IT GmbH",
 			"email": "service@hive-it.de",
-			"homepage": "https://hive-ot.de"
+			"homepage": "https://hive-it.de"
 		},		
 		{
 			"name": "Philip Newcomer",
@@ -16,6 +16,9 @@
 			"homepage": "https://philipnewcomer.net"
 		}
 	],
+	"require-dev": {
+		"wp-cli/wp-cli": "~2.5.0"
+	},
 	"autoload": {
 		"files": [
 			"src/persistent-transients.php"

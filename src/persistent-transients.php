@@ -1,7 +1,7 @@
 <?php
 
-namespace PhilipNewcomer\PersistentTransients;
-use PhilipNewcomer\PersistentTransients\Helpers as Helpers;
+namespace HiveIT\PersistentTransients;
+use HiveIT\PersistentTransients\Helpers as Helpers;
 
 require_once( __DIR__ . '/includes/helpers.php' );
 require_once( __DIR__ . '/includes/garbage-collection.php' );

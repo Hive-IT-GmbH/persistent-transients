@@ -1,8 +1,8 @@
 <?php
 
-namespace PhilipNewcomer\PersistentTransients\Garbage_Collection;
-use PhilipNewcomer\PersistentTransients as PersistentTransients;
-use PhilipNewcomer\PersistentTransients\Helpers as Helpers;
+namespace HiveIT\PersistentTransients\Garbage_Collection;
+use HiveIT\PersistentTransients as PersistentTransients;
+use HiveIT\PersistentTransients\Helpers as Helpers;
 
 /**
  * Schedules the garbage collection event, if it is not already scheduled.

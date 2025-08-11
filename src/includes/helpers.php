@@ -1,6 +1,6 @@
 <?php
 
-namespace PhilipNewcomer\PersistentTransients\Helpers;
+namespace HiveIT\PersistentTransients\Helpers;
 
 /**
  * Returns the hook that garbage collection should be run on.
