@@ -2,7 +2,7 @@
 	"name": "hiveit/persistent-transients",
 	"description": "Persistent transients for WordPress",
 	"type": "library",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
